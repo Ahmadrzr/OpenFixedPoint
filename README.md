@@ -3,7 +3,7 @@
 OpenFixedPoint Library is an open source C++/Python library for bit-accurate simulation/implementations of DSP algorithms, Software Defined Radios or similar systems.
 
 # Features
-	- fixedpoint variable class with per variable properties
+	- fixedpoint class with per variable properties
 	- support for C++ and Python3
 	- support for float, fixedpoint, unsigned fixedpoint, integer, unsigned integer
 	- support for up to 52-bit fixedpoint variables
