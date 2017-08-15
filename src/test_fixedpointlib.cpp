@@ -21,7 +21,6 @@
 
 int main()
 {
-
     double number1 = -11.123456789;
     double number2 = 39.987654321;
 
@@ -29,32 +28,32 @@ int main()
     FXP var_2  = FXP(number1, tuple(10,10,d_FXP, FULL,false,false));
     FXP var_3  = FXP(number1, tuple(9,5,d_FXP, FIXEDFRAC,false,false));
     FXP var_4  = FXP(number2, tuple(7,1,d_FXP, FIXEDFRAC,false,false));
-	FXP var_5  = FXP(number2, var_4);
+    FXP var_5  = FXP(number2, var_4);
     FXP int_1  = FXP(-3, tuple(3,0,d_INT, FIXEDFRAC,false,false));
     FXP uint_1 = FXP(+3, tuple(3,0,d_UINT, FIXEDFRAC,false,false));
     FXP var_inf= FXP(inf, tuple(7,1,d_FLOAT, FIXEDFRAC,false,false));
 
-	cout << " var_1   = " << var_1 << "\n";
-	cout << " var_2   = " << var_2 << "\n";
-	cout << " var_3   = " << var_3 << "\n";
-	cout << " var_4   = " << var_4 << "\n";
-	cout << " var_5   = " << var_5 << "\n";
-	cout << " int_1   = " << int_1 << "\n";
-	cout << " uint_1  = " << uint_1 << "\n";
-	cout << " var_inf = " << var_inf << "\n";
+    cout << " var_1   = " << var_1 << "\n";
+    cout << " var_2   = " << var_2 << "\n";
+    cout << " var_3   = " << var_3 << "\n";
+    cout << " var_4   = " << var_4 << "\n";
+    cout << " var_5   = " << var_5 << "\n";
+    cout << " int_1   = " << int_1 << "\n";
+    cout << " uint_1  = " << uint_1 << "\n";
+    cout << " var_inf = " << var_inf << "\n";
 
-	cout << "\n";
+    cout << "\n";
 
-	cout  << " var_1 + var_2 = " << var_1 + var_2 << " \n";
-	cout  << " var_3 + var_4 = " << var_3 + var_4 << " \n";
-	cout  << " var_3 - var_4 = " << var_3 - var_4 << " \n";
-	cout  << " var_3 * var_4 = " << var_3 * var_4 << " \n";
+    cout << " var_1 + var_2 = " << var_1 + var_2 << " \n";
+    cout << " var_3 + var_4 = " << var_3 + var_4 << " \n";
+    cout << " var_3 - var_4 = " << var_3 - var_4 << " \n";
+    cout << " var_3 * var_4 = " << var_3 * var_4 << " \n";
 
-	cout << "\n";
+    cout << "\n";
 
-	cout << " var_3 + 2 = " << var_3 + 2     << " \n";
-	cout << " 3 - var_3 = " << 3 - var_3     << " \n";
-	cout << " 5 * var_3 = " << 5 * var_3     << " \n";
+    cout << " var_3 + 2 = " << var_3 + 2 << " \n";
+    cout << " 3 - var_3 = " << 3 - var_3 << " \n";
+    cout << " 5 * var_3 = " << 5 * var_3 << " \n";
 
     return 0;
 }

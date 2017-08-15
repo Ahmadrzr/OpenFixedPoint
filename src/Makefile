@@ -20,6 +20,6 @@
 all: test_fixedpointlib.out
 
 test_fixedpointlib.out: fixedpointlib.cpp test_fixedpointlib.cpp
-	g++ -O3 -Wall -Wconversion -std=c++03 -fopenmp -march=native -o test_fixedpointlib.out test_fixedpointlib.cpp
+	g++ -O3 -Wall -Wconversion -std=c++03 -march=native -o test_fixedpointlib.out test_fixedpointlib.cpp
 clean:
 	rm test_fixedpointlib.out

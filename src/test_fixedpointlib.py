@@ -1,14 +1,14 @@
 #   Copyright:
 #       Copyright 2017 Ahmad RezazadehReyhani
 #
-#       Licensed under the Apache License, Version 2.0 (the "License");
+#       Licensed under the Apache License, Version 2.0 (the 'License');
 #       you may not use this file except in compliance with the License.
 #       You may obtain a copy of the License at
 #
 #          http://www.apache.org/licenses/LICENSE-2.0
 #
 #       Unless required by applicable law or agreed to in writing, software
-#       distributed under the License is distributed on an "AS IS" BASIS,
+#       distributed under the License is distributed on an 'AS IS' BASIS,
 #       WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 #       See the License for the specific language governing permissions and
 #       limitations under the License.
@@ -34,24 +34,24 @@ int_1  = FXP(-3, (3,0,dtype.int, modes.FIXEDFRAC,False,False))
 uint_1 = FXP(+3, (3,0,dtype.uint, modes.FIXEDFRAC,False,False))
 var_inf= FXP('inf', (7,1,dtype.float, modes.FIXEDFRAC,False,False))
 
-print(" var_1   = ",end='') ; print( var_1)
-print(" var_2   = ",end='') ; print( var_2)
-print(" var_3   = ",end='') ; print( var_3)
-print(" var_4   = ",end='') ; print( var_4)
-print(" var_5   = ",end='') ; print( var_5)
-print(" int_1   = ",end='') ; print( int_1)
-print(" uint_1  = ",end='') ; print( uint_1)
-print(" var_inf = ",end='') ; print( var_inf)
+print(' var_1   = ',var_1)
+print(' var_2   = ',var_2)
+print(' var_3   = ',var_3)
+print(' var_4   = ',var_4)
+print(' var_5   = ',var_5)
+print(' int_1   = ',int_1)
+print(' uint_1  = ',uint_1)
+print(' var_inf = ',var_inf)
 
-print("\n")
+print()
 
-print(" var_1 + var_2 = ",end='');print( var_1 + var_2 )
-print(" var_3 + var_4 = ",end='');print( var_3 + var_4 )
-print(" var_3 - var_4 = ",end='');print( var_3 - var_4 )
-print(" var_3 * var_4 = ",end='');print( var_3 * var_4 )
+print(' var_1 + var_2 = ',var_1 + var_2 )
+print(' var_3 + var_4 = ',var_3 + var_4 )
+print(' var_3 - var_4 = ',var_3 - var_4 )
+print(' var_3 * var_4 = ',var_3 * var_4 )
 
-print("\n")
+print()
 
-print(" var_3 + 2 = ",end='');print( var_3 + 2 )
-print(" 3 - var_3 = ",end='');print( 3 - var_3 )
-print(" 5 * var_3 = ",end='');print( 5 * var_3 )
+print(' var_3 + 2 = ',var_3 + 2 )
+print(' 3 - var_3 = ',3 - var_3 )
+print(' 5 * var_3 = ',5 * var_3 )

@@ -19,7 +19,11 @@
 
 # set -x #echo on
 make --directory=../src
+echo
 echo "Executing test_fixedpointlib.out"
 ../src/./test_fixedpointlib.out
+
+echo
+echo
 echo "Executing test_fixedpointlib.py"
 python3 ../src/test_fixedpointlib.py
